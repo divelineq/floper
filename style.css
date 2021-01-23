@@ -4,7 +4,6 @@
 
 body {
   margin: 0 auto;
-  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -65,4 +64,65 @@ body {
   margin: 0 auto;
   color: white;
   font-size: 30px;
+}
+
+.about_text {
+  position: absolute;
+  left: 385px;
+  top: 1000px;
+}
+
+.about_text > h1 {
+  font-size: 40px;
+}
+
+.about_text > p {
+  font-size: 20px;
+}
+
+.about {
+  background-image: url(images/photos/about_background.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+}
+
+.about_pt2 {
+  background-image: url(images/photos/video_cover.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+}
+
+.sv {
+  width: 100%;
+  max-width: 1090px;
+  margin: 0 auto;
+  color: rgb(3, 3, 3);
+  border-bottom: 1px solid #2e2e2e;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.services {
+  background-color: #161616;
+}
+
+.services > .sv_tri {
+  width: 100%;
+  max-width: 1090px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.design {
+  padding-bottom: 50px;
+}
+
+.shap_serv {
+  position: absolute;
+  top: 2380px;
+  left: 1447px;
 }
