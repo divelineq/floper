@@ -40,6 +40,7 @@ body {
 
 .nav_link:hover {
   color: rgb(43, 244, 161);
+  transition: 0.3s linear;
 }
 
 .intro {
@@ -99,7 +100,7 @@ body {
   color: rgb(3, 3, 3);
   border-bottom: 1px solid #2e2e2e;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   color: white;
 }
 
@@ -125,4 +126,85 @@ body {
   position: absolute;
   top: 2380px;
   left: 1447px;
+}
+
+.magn {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 1090px;
+  margin: 0 auto;
+  color: white;
+  padding: 0;
+  height: 900px;
+}
+
+.one {
+  background: url(images/magnificpopup/unsplashed.jpg) center / cover no-repeat;
+  height: 400px;
+}
+.two {
+  background: url(images/magnificpopup/redstrip.jpg) center / cover no-repeat;
+  height: 400px;
+}
+.three {
+  background: url(images/magnificpopup/cookie.jpg) center / cover no-repeat;
+  height: 400px;
+}
+.four {
+  background: url(images/magnificpopup/softs.jpg) center / cover no-repeat;
+  height: 400px;
+}
+.five {
+  background: url(images/magnificpopup/essentials.jpg) center / cover no-repeat;
+  height: 400px;
+}
+
+.six {
+  background: url(images/magnificpopup/helmet.jpg) center / cover no-repeat;
+  height: 400px;
+}
+
+.one,
+.two {
+  margin-top: 50px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  border-radius: 2px;
+}
+
+.works {
+  width: 100%;
+  max-width: 1090px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.works {
+  margin-top: 80px;
+}
+
+.works_nav {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.works_nav > a {
+  text-decoration: none;
+  color: black;
+  margin-left: 33px;
+}
+
+.works_nav > a:hover {
+  font-weight: 600;
 }
