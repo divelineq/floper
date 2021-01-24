@@ -172,6 +172,10 @@ body {
 .two {
   margin-top: 50px;
 }
+.five,
+.six {
+  margin-bottom: 100px;
+}
 
 .one,
 .two,
