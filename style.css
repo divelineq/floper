@@ -83,12 +83,14 @@ body {
 
 .about {
   background-image: url(images/photos/about_background.jpg);
+  max-width: 100%;
   height: 700px;
   background-repeat: no-repeat;
 }
 
 .about_pt2 {
   background-image: url(images/photos/video_cover.jpg);
+  min-width: 100%;
   height: 700px;
   background-repeat: no-repeat;
 }
@@ -174,7 +176,7 @@ body {
 }
 .five,
 .six {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .one,
@@ -211,4 +213,41 @@ body {
 
 .works_nav > a:hover {
   font-weight: 600;
+}
+
+.load > a {
+  border: 1px solid #2cf0a1;
+  padding: 15px 30px;
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+}
+
+.load > a:hover {
+  background: #2cf0a1;
+  transition: 1s linear;
+}
+.load {
+  position: absolute;
+  top: 4430px;
+  left: 860px;
+}
+
+.clients {
+  background: #161616;
+  height: 400px;
+  margin-top: 600px;
+}
+
+.clients > h1 {
+  width: 100%;
+  max-width: 1090px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #2e2e2e;
 }
