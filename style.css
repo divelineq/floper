@@ -41,6 +41,7 @@ body {
 .nav_link:hover {
   color: rgb(43, 244, 161);
   transition: 0.3s linear;
+  border-bottom: 1px solid #2cf0a1;
 }
 
 .intro {
@@ -71,6 +72,7 @@ body {
   position: absolute;
   left: 385px;
   top: 1000px;
+  widows: 100%;
 }
 
 .about_text > h1 {
@@ -174,10 +176,6 @@ body {
 .two {
   margin-top: 50px;
 }
-.five,
-.six {
-  margin-bottom: 150px;
-}
 
 .one,
 .two,
@@ -213,6 +211,7 @@ body {
 
 .works_nav > a:hover {
   font-weight: 600;
+  border-bottom: 1px solid #2cf0a1;
 }
 
 .load > a {
@@ -237,7 +236,7 @@ body {
 .clients {
   background: #161616;
   height: 400px;
-  margin-top: 600px;
+  margin-top: 500px;
 }
 
 .clients > h1 {
@@ -250,4 +249,26 @@ body {
   padding-top: 100px;
   padding-bottom: 50px;
   border-bottom: 1px solid #2e2e2e;
+}
+
+.clients > div > p {
+  color: white;
+}
+
+.clients > div > p > a {
+  color: #2cf0a1;
+  text-decoration: none;
+}
+
+.clients > div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1090px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.clients > div > p > a:hover {
+  border-bottom: 1px solid #2cf0a1;
 }
